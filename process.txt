@@ -14,3 +14,6 @@
 13. session manage useSession
 14. sign out
 15. create proxy.js in src for private route.
+16. Go to google console and create OAuth id => BETTER_AUTH_GOOGLE_CLIENT_ID, BETTER_AUTH_GOOGLE_CLIENT_SECRET in env.
+17. auth.js add socialProviders
+18. sign in page Google Sign in handler and function add

@@ -26,7 +26,14 @@ const SignInPage = () => {
       callbackURL: "/",
     });
     console.log(signInData, error, "Sign In Data");
-  };
+    };
+    
+    const handleGoogleSignIn = async () => {
+        const googleData = await signIn.social({
+            provider: "google",
+        });
+    };
+
   return (
     <div className="flex justify-center p-15 bg-violet-500 ">
       <Form
@@ -76,7 +83,7 @@ const SignInPage = () => {
           </Description>
           <FieldError />
         </TextField>
-        <div className="flex gap-2 justify-center">
+        <div className="flex gap-2">
           <Button type="submit">
             <Check />
             Submit
@@ -85,7 +92,8 @@ const SignInPage = () => {
             Reset
           </Button>
         </div>
-      </Form>
+        <Button onClick={handleGoogleSignIn} className="justify-center">Sign Up with Google</Button>
+          </Form>
     </div>
   );
 };
