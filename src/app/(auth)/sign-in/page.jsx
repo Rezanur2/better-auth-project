@@ -23,7 +23,7 @@ const SignInPage = () => {
       email: data.email,
       password: data.password,
       rememberMe: true,
-      callbackURL: "/profile",
+      callbackURL: "/",
     });
     console.log(signInData, error, "Sign In Data");
   };

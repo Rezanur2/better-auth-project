@@ -9,5 +9,8 @@
 9. design sign up page & sign in page
 10. /app/api/auth/[...all]/route.js
 11. lib/auth-client.js
-12. on submit signup and sign in
+12. on submit sign up
+12. on submit sign in
 13. session manage useSession
+14. sign out
+15. create proxy.js in src for private route.
