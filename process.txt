@@ -1,0 +1,7 @@
+1. create next.js
+2. npm install better-auth
+3. npm install mongodb
+4. npm install @better-auth/mongo-adapter
+5. mongodb configure in auth.js
+6. npm install --save-dev @gravity-ui/icons
+7. npm i @heroui/styles @heroui/react and @import "@heroui/styles"; in global.css 
